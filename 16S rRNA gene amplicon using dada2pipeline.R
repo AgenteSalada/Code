@@ -130,7 +130,7 @@ dadaFwd <- dada(derepFwd, errF, multithread = TRUE) # denoise fwd seqs
 ## Sample 3 - 92027 reads in 19221 unique sequences.
 ## Sample 4 - 95522 reads in 15457 unique sequences.
 ## Sample 5 - 93694 reads in 17859 unique sequences.
-## Sample 6 - 100492 reads in 17223 unique sequences
+## Sample 6 -100492 reads in 17223 unique sequences
 
 dadaRev <- dada(derepRev, errR, multithread = TRUE) # denoise rev seqs
 ## Sample 1 - 100201 reads in 48359 unique sequences.
