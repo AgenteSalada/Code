@@ -1,5 +1,6 @@
-#All graphics plotted here are showed in 16S rRNA gene amplicon using dada2pipeline Rplots file
+# All graphics plotted here are showed in 16S rRNA gene amplicon using dada2pipeline Rplots file
 # Installing and importing packages 
+
 
 library(dada2)
 path <- "C:\\Users\\mclar\\Downloads\\OneDrive-2020-01-08 (1)"
@@ -68,8 +69,8 @@ plotErrors(errR, nominalQ=TRUE)
 ## Rplot4
 
 #Points are the observed error rates for each consensus quality score. The black line shows the estimated error rates after convergence of the machine-learning algorithm. 
-#The red line shows the error rates expected under the nominal definition of the Q-score. Here the estimated error rates (black line) are a good fit to the observed rates
-#(points), and the error rates drop with increased quality as expected. Everything looks reasonable and we proceed with confidence.
+#The red line shows the error rates expected under the nominal definition of the Q-score. Here the estimated error rates (black line) are a good fit to the observed rates (points), 
+#and the error rates drop with increased quality as expected. Everything looks reasonable and we proceed with confidence.
 
 
 #DEREPLICATE READS INTO UNIQUE SEQUENCES
@@ -386,5 +387,6 @@ convertTab2Biom(inFile = ".\\output\\asvTaxTbl.txt", outFile = ".\\output\\asvTa
   #In system("command - v biomformat", ignore.stdout = TRUE, ignore.stderr = TRUE) :
   #'command' not found
 # this procedure did not go as expected due to R being unable to locate this package and not having found the access command to execute.
+
 
 
