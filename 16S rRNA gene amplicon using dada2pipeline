@@ -1,3 +1,4 @@
+#All graphics plotted here are showed in 16S rRNA gene amplicon using dada2pipeline Rplots file
 # Installing and importing packages 
 
 library(dada2)
