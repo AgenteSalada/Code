@@ -7,8 +7,5 @@ This work aimed to analyze the metagenome of six samples collected in three diff
 DADA2 uses a method similar to other software such as QIIME and mothur, but replaces OTU tables with ASV tables that have higher resolution,
 and also introduces an algorithm that uses errors introduced during the PCR to infer the sample composition
 
-In the end of the workflow we had 
-
-
 This tutorial is a replication of the original DADA2 tutorial made and maintained by António Sousa
 published by Instituto Gulbenkian da Ciência (31 January 2020).
