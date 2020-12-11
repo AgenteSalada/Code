@@ -1,0 +1,14 @@
+The next-generation sequencing (NGS) of 16S rRNA gene amplicon generates large amounts of raw sequence data that needs to be processed
+before being annotated against a reference database. Processing reads into comprehensive biological information consists in decreasing the 
+complexity from these huge sequence datasets until annotation tables using high-performance algorithms integrated in bioinformatics pipelines 
+
+This work aimed to analyze the metagenome of six samples collected in three different dams using the DADA2 pipeline
+
+DADA2 uses a method similar to other software such as QIIME and mothur, but replaces OTU tables with ASV tables that have higher resolution,
+and also introduces an algorithm that uses errors introduced during the PCR to infer the sample composition
+
+In the end of the workflow we had 
+
+
+This tutorial is a replication of the original DADA2 tutorial made and maintained by António Sousa
+published by Instituto Gulbenkian da Ciência (31 January 2020).
